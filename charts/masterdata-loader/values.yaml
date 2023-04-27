@@ -5,11 +5,11 @@
 replicaCount: 1
 
 image:
-  repository: mosipid/masterdata-loader
+  repository: technogovstack/masterdata-loader
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 1.2.0.1-B2
-
+  ## tag: 1.2.0.1-B2
+  tag: release-1.2.0.1
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
